@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahayanya Judi Online</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f9f9f9;
+        }
+
+        /* Header */
+        .header {
+            background-color: #F4D03F;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 26px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        /* Navigation Menu */
+        .menu {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 15px 0 0;
+            padding: 0;
+        }
+
+        .menu > li {
+            position: relative;
+            margin: 0 15px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+            background-color: #D35400;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+            display: block;
+            transition: background-color 0.3s;
+        }
+
+        .menu a:hover {
+            background-color: #C0392B;
+        }
+
+        /* Submenu Styles */
+        .submenu {
+            list-style: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            margin: 0;
+            padding: 0;
+            display: none;
+            background-color: #D35400;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .submenu li {
+            margin: 0;
+        }
+
+        .submenu a {
+            padding: 10px 15px;
+            border-radius: 0;
+        }
+
+        .menu > li:hover .submenu {
+            display: block;
+        }
+
+        /* Main Content */
+        .content {
+            display: flex;
+            flex: 1;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .left, .center, .right {
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+        }
+
+        .left {
+            background-color: #7374c4;
+            width: 25%;
+        }
+
+        .center {
+            background-color: #b8d6eb;
+            flex: 1;
+            text-align: justify;
+        }
+
+        .right {
+            background-color: #7590d8;
+            width: 25%;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .menu {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .menu li {
+                margin-bottom: 10px;
+            }
+
+            .submenu {
+                position: static;
+            }
+
+            .content {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .left, .right, .center {
+                width: 100%;
+            }
+        }
+    </style>
+    <script>
+        /* Functions to Update Content Dynamically */
+        function showHomeContent() {
+            document.getElementById('center-content').innerHTML = `
+                <h2>Halo selamat Datang di Website Kami</h2>
+                
+            `;
+        }
+
+        function showPengertianContent() {
+            document.getElementById('center-content').innerHTML = `
+                 <div class="image-container">
+                    <img src="gambar.jpg" alt="Gambar" />
+                </div>
+                 <p><strong>Judi online</strong> adalah permainan yang biasanya berbentuk kartu dalam sebuah aplikasi atau website. Melalui permainan ini, pemain menaruh jaminan uang untuk dijadikan bahan taruhan dan berharap mendapatkan banyak keuntungan. Meski menggiurkan, bermain judi online memiliki dampak besar yang sering kali tidak disadari oleh pemainnya.</p>
+                <p>Judi awalnya hanya bisa diikuti secara langsung dalam kasino. Seiring dengan kemajuan teknologi dan kemudahan transaksi, judi pun bisa diakses secara online di mana saja dan oleh siapa saja, termasuk anak-anak. Judi online dikemas dalam bentuk permainan kartu, catur, atau dadu yang menyenangkan sekaligus memberi tantangan.Karena kemudahan akses dan permainannya seru, banyak orang ketagihan bermain judi online, baik secara sadar maupun tidak. Bahkan, pemain judi mungkin tidak lagi peduli dengan untung atau rugi dari segi keuangan. Pada tahap ini, kecanduan judi online atau pathological gambling akan berdampak terhadap hidup pemainnya secara keseluruhan.
+                Biasanya, permainan judi online mudah menjebak dan membuat orang ketagihan karena menimbulkan harapan tinggi untuk memperoleh uang banyak secara instan. Selain itu, seseorang yang merasa tertekan dalam hidupnya, yang memiliki ambisi besar dan memiliki adrenalin tinggi, juga rentan terkena dampak dari kecanduan judi online.</p>
+                
+                
+            `;
+        }
+
+        function showBahayaContent() {
+            document.getElementById('center-content').innerHTML = `
+                <h2>Bahaya Judi Online</h2>
+                <p>Tidak hanya merugikan diri sendiri, sering main judi online juga bisa menjadi penyebab seseorang bertindak kriminal terhadap orang lain. Inilah sejumlah bahaya judi online yang sering terjadi, baik dari sisi kesehatan mental, fisik, finansial, dan sosial:</p>
+                <p><strong>1. Kecanduan</strong></p>
+                <p>Bermain judi, baik secara online maupun konvensional, akan memengaruhi cara kerja sistem saraf di otak, sama halnya seperti narkoba dan alkohol. Pada awalnya, seseorang mungkin hanya coba-coba, tetapi ia lama-kelamaan akan terlarut dalam skema permainan judi online sampai akhirnya kecanduan.
+                Permainan judi online biasanya memiliki fitur untuk mengelabui otak agar berpikir bahwa kekalahan sebenarnya adalah kemenangan. Sebagai contoh, mesin slot judi online menampilkan musik, suara, dan lampu perayaan dengan pengembalian uang Rp500.000 untuk taruhan sebesar Rp2.000.000.</p>
+                <p>Penelitian menunjukkan, sistem saraf simpatik di dalam otak merespons kekalahan yang dirayakan sebagai kemenangan dengan cara yang sama seperti merespons kemenangan yang sebenarnya. Karena inilah, judi online bisa membuat kecanduan, meski pemainnya sebenarnya sudah kalah berkali-kali.</p>
+                <p><strong>2. Kerugian keuangan</strong><p>
+                <p>Walau kalah berkali-kali, pemain yang kecanduan judi online biasanya akan terus melakukan taruhan uang atau menaruh deposit sampai mengalami kerugian keuangan. Saat uangnya habis, pemain judi online seringkali tak segan-segan untuk berhutang atau mendapatkan pinjaman online.</p>
+                <p><strong>3. Gangguan kesehatan mental dan fisik</strong><p>
+                <p>Bahaya judi online lain yang juga akan terjadi adalah gangguan kesehatan mental dan fisik. Judi online membuat para pemainnya cenderung memiliki tekanan emosional yang tinggi, bersifat agresif, mudah stres, dan mudah marah. Ini biasanya akibat dari rasa frustasi karena kekalahan dalam bermain judi.
+                Stres atau depresi berat akibat bermain judi online juga dapat menyebabkan berbagai penyakit, misalnya GERD, bahkan hingga serangan jantung.</p>
+                <p><strong>4. Penyalahgunaan alkohol atau obat-obatan terlarang</strong><p>
+                <p>Kalah dalam judi online bisa mendorong pemainnya untuk mengonsumsi alkohol secara berlebihan, bahkan menggunakan narkoba untuk menghilangkan rasa stres dan kecewa. Ini nantinya akan berdampak pada kesehatan fisik, seperti gangguan ingatan jangka pendek, obesitas, tekanan darah tinggi (hipertensi), kerusakan jantung, masalah organ hati, dan gangguan kesuburan.</p>
+
+                <p><strong>5. Terjerat kasus hukum</strong></p>
+                <p>Dalam Pasal 303 KUHP dan 303 bis KUHP tentang Perjudian disebutkan bahwa penyelenggara permainan judi, termasuk judi online, diancam dengan pidana penjara paling lama 10 tahun atau pidana denda paling banyak 25 juta rupiah. Sementara itu, pemain judi online dapat terkena pidana penjara maksimal 4 tahun dan/atau denda pidana paling banyak 10 juta rupiah.
+                Selain itu, bila telah terlilit hutang, pecandu judi online dapat melakukan apa saja untuk membayar hutang dan memenuhi kebutuhannya dalam berjudi lagi, seperti menipu, merampas, bahkan mencuri.
+                Bermain judi online juga termasuk tindakan pidana yang diatur juga dalam Pasal 45 ayat 2 UU ITE. Pada pasal tersebut, pemain judi online dapat dipidana penjara paling lama 6 tahun dan/atau denda paling banyak 1 miliar rupiah.</p>
+                <h2>Video Penjelasan</h2>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/WtFIyjl7iyw" frameborder="0" allowfullscreen></iframe>
+                `;
+
+        }
+
+        function showAboutContent() {
+            document.getElementById('center-content').innerHTML = `
+                <h2>Tentang Kami</h2>
+                <p>Halaman ini bertujuan memberikan edukasi kepada masyarakat tentang bahaya judi online.</p>
+            `;
+        }
+
+        function showJenisContent() {
+            document.getElementById('center-content').innerHTML = `
+                <h2>Jenis Judi Online</h2>
+                <p><strong>1 MESIN SLOT ONLINE<strong></p> 
+                    <div class="image-container">
+                    <img src="gambar(1).jpg" alt="Gambar" />
+                </div>
+                <p>Mesin slot online menjadi favorit dengan desain yang menarik, fitur bonus menggiurkan, dan peluang meraih jackpot besar. Bergabunglah di RUMAH303 untuk merasakan kegacoran kemenangan di mesin slot yang penuh kejutan!</p>
+                
+                <p><storng>2 POKER ONLINE </strong></p>
+                    <div class="image-container">
+                    <img src="gambar(2).jpg" alt="Gambar" />
+                </div>
+                <p>Poker online terus memikat para pemain dengan turnamen seru dan variasi permainan yang beragam. Di RUMAH303, nikmati pengalaman poker online yang mendebarkan dan tantang teman-teman Anda di meja!</p>
+               
+                <p><strong>3 TARUHAN JUDI BOLA</strong></p>
+                <div class="image-container">
+                    <img src="gambar(3).jpg" alt="Gambar" />
+                </div>
+                <p>Taruhan judi bola menjadi semakin populer dengan berbagai pasar taruhan dan pertandingan dari seluruh dunia. Di RUMAH303, rasakan sensasi taruhan judi bola yang menguntungkan dan ikuti pertandingan favorit Anda!</p>
+                
+                <p><strong>4 LIVE CASINO GAMES</strong></p>
+                <div class="image-container">
+                    <img src="gambar(4).jpg" alt="Gambar" />
+                </div> 
+                <p>Permainan live casino memberikan pengalaman nyata dengan dealer langsung. RUMAH303 menghadirkan berbagai opsi live casino, seperti blackjack, roulette, dan baccarat, untuk memenuhi selera pemain yang mencari kegembiraan dalam permainan interaktif.</p>
+               
+                <p><strong>5 BONUS DAN PROMOSI MENARIK</strong></p>
+                <div class="image-container">
+                    <img src="gambar(5).jpg" alt="Gambar" />
+                </div>
+                <p>RUMAH303 tidak hanya menawarkan permainan judi online populer, tetapi juga bonus dan promosi yang tak terlupakan. Dapatkan keuntungan tambahan setiap hari dan tingkatkan peluang Anda meraih kemenangan besar!</p>
+            `;
+        }
+
+        function showDampakContent() {
+            document.getElementById('center-content').innerHTML = `
+                <h2>Hal-Hal yang Membuat Kecanduan Judi Online</h2>
+                <h3>1. Aksesibilitas yang Mudah</h3>
+                <p>Judi online sangat mudah diakses, yang memungkinkan seseorang untuk berjudi kapan saja dan di mana saja.
+                Dengan adanya internet dan perangkat pintar, semua orang bisa bermain tanpa perlu pergi ke kasino fisik. Kemudahan akses ini membuat orang lebih rentan terhadap kecanduan.</p>
+                <h3>2. Anonimitas</h3>
+                <p>Judi online menawarkan tingkat anonimitas yang lebih tinggi dibandingkan dengan berjudi di tempat fisik. Anonimitas ini bisa membuat seseorang merasa lebih nyaman untuk berjudi tanpa takut penilaian sosial atau dampak negatif dari penghakiman orang lain.</p>
+                <h3>3. Pengalaman Sensori yang Menarik</h3>
+                <p>Situs judi online sering kali dirancang dengan grafis yang menarik, suara yang menghibur, dan fitur interaktif yang bisa membuat pengalaman berjudi lebih menyenangkan dan adiktif. Pengalaman sensoris ini meluapkan keinginan untuk terus bermain.</p>
+                <h3>.4. Ilusi Kontrol</h3>
+                <p>Banyak permainan judi online memberikan ilusi bahwa pemain memiliki kontrol atas hasil permainan.Misalnya, permainan yang melibatkan keterampilan atau keputusan strategis bisa membuat pemain merasa mereka dapat memengaruhi hasil, padahal pada kenyataannya, hasilnya sepenuhnya bergantung pada keberuntungan semata.</p>
+                <h3>5. Kemenangan Kecil yang Sering</h3>
+                <p>Kasino online sering kali mengatur permainan agar memberikan kemenangan kecil yang sering untuk menjaga pemain tetap bermain.Kemenangan kecil ini bisa memberikan dorongan dopamin yang kuat dan membuat pemain merasa bahwa mereka dekat dengan kemenangan besar, sehingga tidak bisa berhenti sama sekali.</P>
+                <h3>6. Kesulitan Keuangan</h3>
+                <p>Beberapa orang beralih ke judi online dengan harapan ini adalah cara cepat untuk menghasilkan uang ketika menghadapi kesulitan keuangan.Harapan untuk memenangkan uang dalam jumlah besar dapat menjadi motivator kuat untuk terus berjudi meskipun pasti mengalami kerugian lebih besar.</p>
+                <h3>7. Masalah Emosional dan Psikologis</h3>
+                <p>Orang dengan masalah emosional atau psikologis seperti depresi, kecemasan, atau stres sering menggunakan judi online sebagai cara untuk melarikan diri dari perasaan negatif atau mengalihkan pikiran mereka.Judi memberikan pengalihan perhatian sementara dan perasaan euforia yang dapat menjadi adiktif.</p>
+                <h3>8. Pengaruh Sosial,/h3>
+                <p>Tekanan dari teman atau lingkungan sosial yang juga bermain judi meningkatkan kecenderungan seseorang untuk terlibat dalam judi online. Melihat teman atau kenalan yang memenangkan uang bisa mendorong individu untuk mencoba peruntungan mereka sendiri.,/p>
+                <h3>9. Kampanye Pemasaran yang Agresif</h3>
+                <p>Situs judi online sering kali menggunakan strategi pemasaran yang agresif, termasuk iklan yang menarik, bonus pendaftaran, dan promosi khusus yang dapat menarik perhatian dan mendorong individu untuk mulai berjudi. Bonus dan insentif ini bisa membuat perjudian tampak lebih menguntungkan dan sulit ditolak.</p>
+                <h3>10. Rasa Keinginan untuk Mengejar Kerugian</h3>
+                <p>Seseorang yang telah mengalami kerugian sering kali merasa terdorong untuk terus berjudi dalam upaya untuk mendapatkan kembali uang yang hilang.Keinginan untuk mengejar kerugian ini bisa membuat seseorang terperangkap dalam siklus perjudian yang semakin intens dan merugikan.</p>
+                <h3>11. Kurangnya Pemahaman Tentang Probabilitas</h3>
+                <p>Banyak pemain judi online tidak sepenuhnya memahami probabilitas atau peluang kemenangan. Kurangnya pemahaman ini bisa membuat mereka merasa bahwa mereka lebih mungkin untuk menang daripada yang sebenarnya, sehingga terus berjudi meskipun mengalami kerugian terus menerus.</p>
+                <h3>12. Kepuasan Segera</h3>
+                <p>Judi online menawarkan kepuasan segera karena hasil permainan diketahui dalam waktu singkat. Kepuasan instan ini bisa menjadi sangat memikat dan membuat seseorang ingin terus bermain untuk merasakan euforia kemenangan lagi dan lagi.</p>
+                <h3>13. Kurangnya Pengawasan dan Batasan</h3>
+                <p>Tidak adanya pengawasan atau batasan yang ketat dalam judi online dapat membuat seseorang lebih mudah terjerumus dalam kecanduan.Tidak adanya batasan waktu dan uang yang jelas bisa membuat seseorang berjudi lebih lama dan menghabiskan lebih banyak uang daripada yang mereka sadari.</p>
+                <h3>14. Adanya Fitur “Free Play”</h3>
+                <p>Banyak situs judi online menawarkan mode “free play” yang memungkinkan pemain untuk mencoba permainan tanpa menggunakan uang sungguhan.Meskipun ini sangat berbahaya karena pada mode ini dibuat sering menang, mode ini membuat pemain terbiasa dengan permainan dan merasa percaya diri untuk menang lalu mendorong mereka untuk beralih ke mode taruhan uang sungguhan.</p>
+                <h3>15. Masalah Genetik dan Biologis</h3>
+                <p>Beberapa penelitian menunjukkan bahwa kecanduan, termasuk kecanduan judi, bisa memiliki komponen genetik dan biologis. Orang yang memiliki riwayat keluarga dengan kecanduan mungkin lebih rentan terhadap kecanduan judi online.</p>
+            `;
+        }
+
+        function showServiceContent() {
+            document.getElementById('center-content').innerHTML = `
+                <h2>Layanan</h2>
+                <p>Kami menyediakan bantuan bagi mereka yang terkena dampak kecanduan judi online.</p>
+            `;
+        }
+
+        function showKonsultasiContent() {
+            document.getElementById('center-content').innerHTML = `
+                <h2>Konsultasi</h2>
+                  <div class="image-container">
+                    <img src="Puspa.jpg" alt="Gambar" />
+                </div>
+                <p>Salah satu layan yang tersedia saat ini adalah PUSPA.PUSPA memberikan layanan yang sangat baik utuk konsultasi terhadap masalah judi online ini. Berikut beberapa cara mengakses layanan di PUSPA:</p>
+                <ul>
+                    <li>Menghubungi PUSPA </li>
+                        <p>Kunjungi situs resmi PUSPA di  https://puspa.jakarta.go.id untuk mendapatkan informasi lebih lanjut. Isi formulir pendaftaran layanan yang tersedia di halaman tersebut.</p>
+                    <li>Konsultasi Awal</li>
+                    <p>Setelah pendaftaran, Anda akan dijadwalkan untuk sesi konsultasi awal dengan konselor profesional. Pada sesi ini, konselor akan mengevaluasi kondisi dan kebutuhan Anda secara mendalam.
+                    <li>Program Pemulihan</li>
+                    <p>Berdasarkan hasil konsultasi awal, konselor akan merekomendasikan program pemulihan yang sesuai. Program ini dapat berupa terapi individu, konseling keluarga, atau dukungan kelompok.</p>
+                    <li>Layanan Tambahan</li>
+                    <p>Selain layanan utama, PUSPA juga menyediakan layanan tambahan untuk mendukung pemulihan Anda, seperti pelatihan keterampilan dan edukasi keuangan yang bertujuan membantu Anda pulih.</p>           
+                `;
+
+        }
+
+        function showHandphoneContent() {
+            document.getElementById('center-content').innerHTML = `
+                <h2>Handphone</h2>
+                <p>Hubungi kami melalui handphone untuk informasi lebih lanjut.</p>
+                <ul>
+                    <li>087762586025</li>
+                    <li>087864587918</li>
+            `;
+        }
+    </script>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <h1>Bahayanya Judi Online</h1>
+        <ul class="menu">
+            <li>
+                <a href="#" onclick="showHomeContent(); return false;">Beranda</a>
+                <ul class="submenu">
+                    <li><a href="#" onclick="showPengertianContent(); return false;">Pengertian</a></li>
+                    <li><a href="#" onclick="showBahayaContent(); return false;">Bahaya</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" onclick="showAboutContent(); return false;">Tentang</a>
+                <ul class="submenu">
+                    <li><a href="#" onclick="showJenisContent(); return false;">Jenis</a></li>
+                    <li><a href="#" onclick="showDampakContent(); return false;">Sebab</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" onclick="showServiceContent(); return false;">Layanan</a>
+                <ul class="submenu">
+                    <li><a href="#" onclick="showKonsultasiContent(); return false;">Konsultasi</a></li>
+                    <li><a href="#" onclick="showHandphoneContent(); return false;">Handphone</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="content">
+        <div class="left">
+            <h1>Video </h1>
+            <div class="video-container">
+                <iframe width="400" height="315" 
+                    src="https://www.youtube.com/embed/WFWPvJ9IFT8" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>    
+        </div>
+        <div class="center" id="center-content">
+            <h2>Informasi</h2>
+            <p>Klik menu untuk melihat konten.</p>
+        </div>
+        <div class="right">
+            <h1>Perhatian</h1>
+            <h3>Ciri-Ciri Kecanduan Judi Online</h3>
+            <p>Jika sudah mengalami kecanduan judi online, seseorang akan sulit mengendalikan keinginannya untuk berjudi. Berikut adalah ciri-ciri orang yang kecanduan judi online:</p>
+            <ul>
+                <li>Terus mengejar taruhan sampai menguras tabungan.</li>
+                <li>Memprioritaskan uang untuk berjudi daripada kebutuhan hidup.</li>
+                <li>Sering bermain judi online saat stres.</li>
+                <li>Merasa gelisah dan mudah marah saat tidak bisa berjudi.</li>
+                <li>Mengandalkan orang lain untuk memberinya uang.</li>
+                <li>Berusaha mendapatkan uangnya kembali dengan berjudi lebih banyak.</li>
+                <li>Tidak merasa masalah bila kehilangan pekerjaan.</li>
+            </ul>
+            <h3>Pilihan Terapi yang Tepat untuk Terlepas dari Judi Online</h3>
+            <p>Bebas dari kecanduan bermain judi online bukanlah perkara yang mudah. Berikut adalah beberapa pilihan terapi:</p>
+            <ul>
+                <li><strong>Terapi perilaku kognitif:</strong> Mendeteksi dan mengubah pola pikir yang keliru.</li>
+                <li><strong>Obat-obatan:</strong> Mengurangi perilaku kecanduan judi online dengan obat antidepresan.</li>
+                <li><strong>Dukungan dari teman dan keluarga:</strong> Sangat diperlukan dalam proses penyembuhan.</li>
+            </ul>
+            <p>Jika Anda merasa tidak mampu terlepas dari judi online, jangan ragu untuk melakukan konsultasi dengan psikolog atau psikiater.</p>
+        </div>
+    </div>
+</body>
+</html>
